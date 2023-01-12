@@ -1,4 +1,4 @@
-import {Button, Label, Table, Textarea, TextInput} from "flowbite-react";
+import {Table} from "flowbite-react";
 
 export default function ShowUsers(){
     return(

@@ -1,7 +1,7 @@
 import React from 'react';
 import EditUser from "./components/EditUser";
+
 import ShowUsers from "./components/ShowUsers";
-import store from '.redux/store'
 //store - to hold all the data/ the grand or global state
 
 //Actions - FETCH_DATA, PATCH_DATA
@@ -13,7 +13,8 @@ import store from '.redux/store'
 
 function App() {
   return (
-      <ShowUsers/>
+      <EditUser/>
+      // <ShowUsers/>
   );
 }
 

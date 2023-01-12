@@ -1,4 +1,4 @@
-import {Button, FileInput, Label, Textarea, TextInput} from "flowbite-react";
+import {Button, Label, Textarea, TextInput} from "flowbite-react";
 
 export default function EditUser() {
     return (
