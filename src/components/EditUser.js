@@ -9,28 +9,28 @@ export default function EditUser() {
                     <div>
                         <div className="mb-2 block">
                             <Label
-                                htmlFor="Title"
-                                value="Product Title"
+                                htmlFor="name"
+                                value="Enter Name"
                             />
                         </div>
                         <TextInput
-                            id="title"
+                            id="name"
                             type="text"
-                            placeholder="Lenovo Ideapad 5"
+                            placeholder="John Doe"
                             required={true}
                         />
                     </div>
                     <div>
                         <div className="mb-2 block">
                             <Label
-                                htmlFor="Title"
-                                value="Product Title"
+                                htmlFor="email"
+                                value="Enter Email"
                             />
                         </div>
                         <TextInput
-                            id="title"
+                            id="email"
                             type="text"
-                            placeholder="Lenovo Ideapad 5"
+                            placeholder="name@example.com"
                             required={true}
                         />
                     </div>
